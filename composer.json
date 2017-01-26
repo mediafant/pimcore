@@ -74,11 +74,11 @@
     "egulias/email-validator": "*",
     "neitanod/forceutf8": "~2",
     "symfony/cache": "^3.2",
+    "cache/tag-interop": "dev-master",
     "symfony/options-resolver": "^3.2"
   },
   "require-dev": {
     "phpunit/phpunit": "*",
-    "cache/tag-interop": "1.0.x-dev",
     "cache/integration-tests": "^0.15.0"
   },
   "suggest": {
