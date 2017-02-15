@@ -539,8 +539,7 @@ class Admin_EmailController extends \Pimcore\Controller\Action\Admin\Document
                 "id" => (int) $mail->key()
             ];
 
-            $date = new \DateTime();
-            $date->setTimestamp($message->date);
+            $date = new \DateTime($message->date);
             $mailData["date"] = $date->format("Y-m-d");
 
             $mails[] = $mailData;
